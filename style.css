@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/65/28/55/65285549-0b81-5f89-b8c6-398c769b1549/source/256x256bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100vw;
+    max-height: 100vh;
+
+}
+/*heading*/
+#title{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: rebeccapurple -2px 0, purple   3px 0;
+    font-size: 50px;
+}
+.container{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    position: relative;
+    top: 50px;
+    border-radius: 10px;     
+}
+/*input box*/
+#city{
+    border: none;
+    height: 40px;
+    width: 500px;
+    margin: 0;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family:sans-serif;
+    background: lightgray; 
+    outline: 1px solid purple;
+    background: linear-gradient(112deg, rgb(253, 252, 254) 0%, rgb(237, 160, 248) 100%);
+}
+/*serach button*/
+#search{
+    border: none;
+    color: rgb(84, 82, 82);
+    height: 35px;
+    margin: 0;
+    font-family:sans-serif;
+    background: lightgray;
+    background: linear-gradient(112deg, rgb(253, 252, 254) 0%, rgb(237, 160, 248) 100%);
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 520;
+    border-radius: 15px;
+    outline: 1px solid purple;
+}
+#search i:hover{
+    color:#379237;
+    transition: ease-in-out;
+}
+.card-header i{
+    color:#EA4335;
+}
+.card-body{    
+    text-align: center;
+    padding-top: 20px;
+}
+#location{    
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family:'Poppins', sans-serif; 
+    /* text-shadow: rebeccapurple -2px 0, purple   3px 0; */
+    font-size: 30px;
+    margin: 5px;
+    background: rgb(138,68,208);
+    background: linear-gradient(112deg, rgba(138,68,208,1) 0%, rgba(129,73,207,1) 40%, rgba(180,48,196,1) 100%);
+}
+#weather{
+    color: whitesmoke;
+    font-family:'Poppins', sans-serif; 
+    /* text-shadow: rebeccapurple -2px 0, purple   3px 0; */
+    font-size: 24px;
+    margin: 5px;
+    background: rgb(138,68,208);
+    background: linear-gradient(112deg, rgba(138,68,208,1) 0%, rgba(129,73,207,1) 40%, rgba(180,48,196,1) 100%);
+}
+#temperature{
+    color: whitesmoke;
+    /* text-shadow: rebeccapurple -2px 0, purple   3px 0; */
+    font-size: 30px;
+    margin: 5px;
+    background: rgb(138,68,208);
+    background: linear-gradient(112deg, rgba(138,68,208,1) 0%, rgba(129,73,207,1) 40%, rgba(180,48,196,1) 100%);
+}
